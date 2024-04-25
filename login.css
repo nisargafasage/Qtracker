@@ -1,0 +1,56 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849826_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginform {
+    width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #333;
+    color: #333;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.lgnbtn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.lgnbtn:hover {
+    background-color: #0056b3;
+}
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+a:hover {
+    text-decoration: underline;
+}
