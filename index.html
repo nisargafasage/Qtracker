@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TEXTEDITOR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="editor.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="heading">TEXT BOX</h1>
+    <div class="form-container">
+        <form class="textform">
+            <label>Enter Some Text Below</label> <br>
+            <textarea id="usertext" onkeyup="updateTextInfo()" placeholder="Type here..."></textarea>
+            <br><br>
+            <button type="button" onclick="transformToUpperCase()">UPPERCASE</button>
+            <button type="button" onclick="transformToLowerCase()">lowercase</button>
+            <button type="button" onclick="searchText()">Search Text</button>
+            <button type="button" onclick="changeTextColor()">Change Color</button>
+            <button type="button" onclick="clearText()">Clear Text</button>
+            
+            <br><br>
+            <p id="op">This text contains </p>
+            <p id="wordCount"></p>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
